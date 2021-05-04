@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang=pl>
+<head>
+	<meta charset="UTF-8">
+	<title>Form</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header><p class="head">Formularz</p></header>
+<div class="sn1">
+    <h3>Której maszyny problem dotyczy?</h3>
+        (wyświetlanych jest 10 pierwszych rekordów)
+    <br><br>
+    <input type="text">
+</div>
+<div class="form">
+	<h3>Opisz proszę jaki problem występuje</h3>
+    <form name="Fuck">
+        <div class="in">
+        	<div class="inl">
+        		<label for="choice">Czy można używać maszyny?</label>
+        	</div>
+        	<div class=inr>
+        		<select>
+                	<option value="yes">Tak</option>
+                	<option value="no">Nie</option>
+            	</select>
+            </div>
+        </div>
+        <br><br>
+        <div class="in">
+        	<div class="inl">
+        		<label for="komunikat">Komunikat maszyny</label>
+        	</div>
+            <div class="inr">
+            <textarea id="komunikat"></textarea>
+        	</div>
+        </div>
+        <br><br><br>
+        <div class="in">
+        	<div class="inl">
+        		<label for="opis">Opis problemu</label>
+        	</div>
+        	<div class="inr">
+        		<textarea id="opis"></textarea>
+        	</div>
+        </div>
+        <br><br><br><br><br>
+        <div class="in">
+        	<div class="inl">
+        		<label>Plik</label>
+        	</div>
+        	<div class="inr">
+        		<label class="plik" for="plik">Wybierz zdjęcie</label>
+				<input id="plik" type="file">
+       		</div>
+        </div>
+        <br><br><br>  
+        <div class="in">
+        	<div class="inl">	
+        		<label for="godziny">Godziny pracy</label>
+        	</div>
+        	<div class="inr">
+        		<input type="time" id="godz1"> Do <input type="time" id="godz2">
+       		</div>
+       	</div>
+        <br><br><br>
+       	<div class="in">
+       		<div class="inl">
+       			<input type="submit" value="Wyślij">
+       		</div>
+    	</div>
+    </form>
+</div>
+
+
+</body>
+</html>
