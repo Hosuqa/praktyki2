@@ -109,6 +109,11 @@ input[type="file"]{
 	border: 1px solid gray;
 	resize: none;
 }
+#modelow
+{
+	background-color:#608feb;
+	color: white;
+}
 /* koniec css do pliku form.html */
 #color
 {

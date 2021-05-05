@@ -4,9 +4,7 @@ var modelsn = currentUrl.split("#").pop();
 // modelsn = zmienna&zmienna
 var [model, sn] = modelsn.split('&');
 
-model.value = model;
-sn.value = sn;
-
+document.getElementById("modelow").innerHTML = "(SN: "+sn+")"+", "+model;
 
 
 
